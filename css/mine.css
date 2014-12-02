@@ -28,6 +28,7 @@ font-size: 30px;
 text-align: center;
 padding-top: 10px;
 box-shadow: 0 -1px 10px 1px #890f23;
+display: none;
 }
 
 body{

@@ -62,7 +62,11 @@
     <script src="js/foundation.min.js"></script>
     <script>
       $(document).foundation();
-      $(document).ready(function() {});
+      $(document).ready(function() {
+        var $footer = $('footer');
+
+        $footer.delay(500).slideDown("slow");
+      });
     </script>
   </body>
 </html>
